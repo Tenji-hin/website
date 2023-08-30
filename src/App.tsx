@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './App.css'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
@@ -12,8 +13,12 @@ function App() {
       </p>
 
       <p>
-        <a href="https://github.com/Tenji-hin"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
+        <a href="https://github.com/Tenji-hin"><FontAwesomeIcon icon={faGithub} size="4x" /></a>   
       </p>
+
+      <h3>
+        <a href="https://api.tenji.moe/docs"><FontAwesomeIcon icon={faBook} /> API Documentation (Beta)</a>
+      </h3>
     </>
   )
 }
